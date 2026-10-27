@@ -1,0 +1,26 @@
+NightSound is a quiet sleep log. Tap "Start monitoring" at bedtime, put the phone by your pillow, and in the morning you get a report you can actually read: how long you slept, how steadily, how much you snored, and whether there were suspected breathing pauses.
+
+A REPORT FOR PEOPLE, NOT INSTRUMENTS
+• A one-line verdict and a sleep score
+• Four cards: time asleep, snoring, suspected breathing pauses, how steady the night was
+• A whole-night timeline, one bar per 10 minutes, so you see when the snoring clustered; tap to hear the clip and check it yourself
+• Compared with your recent nights
+• A daytime sleepiness check-in, shown next to your night's snoring
+
+SOUND RECOGNITION RUNS ON YOUR PHONE
+• A built-in on-device sound model (Google YAMNet) tells snoring from breathing, coughing, talking and more
+• Snoring must form a regular run to count; a sudden silence of 10+ seconds inside a snoring run is logged as a "suspected breathing pause"
+• Teeth-grinding detection is experimental and can be turned off
+
+PRIVACY
+• No internet permission, no account, no ads, no analytics SDKs
+• Audio is analysed on the phone; event clips can be turned off and are deleted automatically
+• Delete everything with one tap
+
+TIPS
+• Place the phone 0.5–1 m from your head, screen down, plugged in
+• Many phones kill background apps; follow the in-app guide so NightSound is set to "unrestricted"
+• Falling asleep and waking are estimated from movement, screen use and sound. There is no heart rate and no REM staging.
+
+IMPORTANT
+NightSound is a daily logging tool, not a medical device, and cannot diagnose sleep apnea or any condition. A phone cannot hear airflow or measure blood oxygen; a "suspected breathing pause" is only a nudge. If you snore loudly, are very sleepy in the daytime, or wake up gasping, please see a doctor. Do not drive when you feel sleepy.

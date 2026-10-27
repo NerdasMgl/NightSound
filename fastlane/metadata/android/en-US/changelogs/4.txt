@@ -1,0 +1,5 @@
+• New 5-step onboarding: where to put the phone, which permissions, how to keep it from being killed
+• Report redesigned as a dashboard: verdict, four cards, whole-night timeline, comparison with recent nights
+• Snoring and suspected breathing pauses now detected by an on-device sound model
+• Timeline redrawn; coughing, talking and grinding marked; clips playable
+• Dark, low-brightness bedside screen; hold 1.5 s to stop, to avoid accidental taps

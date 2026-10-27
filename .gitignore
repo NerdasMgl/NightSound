@@ -1,0 +1,8 @@
+build/
+tools/
+*.keystore
+*.jks
+*.p12
+*.class
+__pycache__/
+.DS_Store

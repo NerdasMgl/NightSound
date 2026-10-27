@@ -1,0 +1,15 @@
+夜莺 (NightSound)
+Copyright 2026 夜莺 contributors
+
+本项目随附以下第三方成果 / This product includes the following third-party work:
+
+1. YAMNet (Google). Apache License 2.0.
+   assets/yamnet.bin 是 YAMNet 官方 Keras 权重折叠 BatchNorm 后转成 float16 的版本（转换脚本见 ml/export_weights.py）；
+   src/com/yehang/app/core/YamNet.java 是它的纯 Java 前向实现。
+   https://github.com/tensorflow/models/tree/master/research/audioset/yamnet
+
+2. Material Design icons (Google). Apache License 2.0.
+   assets/ui/ui.js 里的图标路径取自 Google 的 Material Design 图标。
+   https://github.com/google/material-design-icons
+
+3. 夜莺自带的界面使用系统字体，不打包任何字体文件。
