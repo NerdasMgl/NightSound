@@ -2,17 +2,25 @@
 
 睡前点一下"开始监测"，手机放枕边；早上看一份**大白话的睡眠报告**：睡了多久、睡得稳不稳、打鼾重不重、夜里有没有疑似呼吸暂停。声音只在手机里分析，应用**没有联网权限**。
 
+### ⬇ [点这里下载 APK（夜莺 0.2.2 · 7.3 MB · Android 8.0 及以上）](https://github.com/NerdasMgl/NightSound/releases/download/v0.2.2/nightsound-0.2.2.apk)
+
+用手机浏览器点上面的链接就能直接下载，下载完点开安装即可，步骤见[安装](#安装)。更新说明和校验值在[发布页](https://github.com/NerdasMgl/NightSound/releases/tag/v0.2.2)。
+
 > **状态：早期版本（0.2.2）。** 还没有在大量真机上验证过。检测模型没有用真实卧室录音微调，评估只用了 ESC-50 加合成场景，详见下面的"已知限制"。夜莺**不是医疗器械**，不能诊断睡眠呼吸暂停或任何疾病。
 
 *English: NightSound is a quiet Android sleep & snoring log. Put the phone by the pillow, get a plain-language report in the morning. An on-device sound model (Google YAMNet, pure Java, no native libs) recognises snoring; "suspected breathing pauses" are inferred from sudden silences inside a regular snoring run. No INTERNET permission, no account, no ads, no analytics. Early version, not a medical device. Apache-2.0.*
 
+**Download:** [nightsound-0.2.2.apk](https://github.com/NerdasMgl/NightSound/releases/download/v0.2.2/nightsound-0.2.2.apk) (7.3 MB, Android 8.0+) · [Release notes & SHA-256](https://github.com/NerdasMgl/NightSound/releases/tag/v0.2.2)
+
 ## 安装
 
-1. 到本仓库的 **Releases** 页面下载 `nightsound-0.2.2.apk`（页面上附有 SHA-256 校验值）。
-2. 在手机上打开 APK，按系统提示允许"安装未知应用"。个别手机的安全软件会对陌生 APK 报风险，因为它没有上架任何商店，这是正常现象。
-3. 打开夜莺，按 5 步引导走：手机怎么放、允许麦克风和通知、设置后台不被关掉、试一下麦克风。
+1. **下载**：直接点 [nightsound-0.2.2.apk](https://github.com/NerdasMgl/NightSound/releases/download/v0.2.2/nightsound-0.2.2.apk)；或者打开 [Releases 发布页](https://github.com/NerdasMgl/NightSound/releases/tag/v0.2.2)，在页面下方的 **Assets（附件）** 里点 `nightsound-0.2.2.apk`。不要点 "Source code"，那是源码压缩包，装不了。
+2. **安装**：在手机上打开下载好的 APK，按系统提示允许"安装未知应用"。个别手机的安全软件会对陌生 APK 报风险，因为它没有上架任何商店，这是正常现象。
+3. **打开夜莺**，按 5 步引导走：手机怎么放、允许麦克风和通知、设置后台不被关掉、试一下麦克风。
 
-需要 Android 8.0（API 26）及以上。
+需要 Android 8.0（API 26）及以上。在电脑上下载的话，传到手机再安装。GitHub 打开或下载慢时，换个网络再试。
+
+想核对文件没被改过：发布页上附有 SHA-256 校验值，下载后和它比对即可（Linux/macOS：`shasum -a 256 nightsound-0.2.2.apk`；Windows：`certutil -hashfile nightsound-0.2.2.apk SHA256`）。
 
 ## 它做什么
 
